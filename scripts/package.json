@@ -1,0 +1,13 @@
+{
+  "name": "owockibot-bounty-sync-scripts",
+  "version": "1.0.0",
+  "description": "Sync scripts for owockibot bounty board → GitHub Issues",
+  "main": "sync.js",
+  "scripts": {
+    "sync": "node sync.js",
+    "demo": "DEMO_MODE=true node sync.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
