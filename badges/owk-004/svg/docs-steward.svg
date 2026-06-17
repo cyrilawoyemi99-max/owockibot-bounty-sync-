@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Owockibot Docs Steward contributor badge" viewBox="0 0 256 256">
+<circle cx="128" cy="128" r="122" fill="#111827"/>
+<circle cx="128" cy="128" r="104" fill="#0F766E"/>
+<path d="M82 70h62l30 30v86H82z" fill="none" stroke="#F8FAFC" stroke-width="12" stroke-linejoin="round"/>
+<path d="M144 70v31h30M103 124h50M103 148h50M103 172h35" fill="none" stroke="#F8FAFC" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="128" y="207" text-anchor="middle" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="21" font-weight="800" letter-spacing="1" fill="#F8FAFC">DOCS</text>
+</svg>
