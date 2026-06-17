@@ -1,0 +1,44 @@
+name: Sync Owockibot Bounties
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      demo_mode:
+        description: 'Run in demo mode (uses mock data, no real API needed)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: ./scripts
+
+      - name: Sync bounties to issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }}
+          DEMO_MODE: ${{ github.event.inputs.demo_mode || 'false' }}
+          OWOCKIBOT_API_URL: ${{ vars.OWOCKIBOT_API_URL || 'https://owockibot.xyz/api' }}
+        run: node sync.js
+        working-directory: ./scripts
