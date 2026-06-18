@@ -4,7 +4,7 @@ Issue: https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/issues/5
 
 Target reviewed: `owocki-bot/ai-bounty-board` at commit `774c3a58ddc7052309f2fc8ade1e924abbedefdc`
 
-Scope note: I did not find a Solidity escrow contract in the public GitHub org or synced bounty repository. The review therefore focuses on the public bounty board server that implements escrow state, approval, and USDC payout behavior for the Base/x402 bounty system. I did not attempt live exploitation or trigger any transfer.
+Scope note: I did not find a Solidity escrow contract in the public GitHub org or synced bounty repository. The review therefore focuses on the public bounty board server that implements escrow state, approval, and USDC payout behavior for the Base/x402 bounty system. I did not attempt live exploitation or trigger any transfer. See `reports/owk-005-maintainer-triage.md` for the source-discovery reconciliation and acceptance checklist.
 
 ## Executive Summary
 
