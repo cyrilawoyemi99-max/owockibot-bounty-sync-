@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Onchain Verifier contributor badge" viewBox="0 0 220 220">
+  <title>Onchain Verifier</title><desc>A blue and gold contributor badge for wallet-linked proof and onchain receipts.</desc>
+  <defs><linearGradient id="g" x1="28" y1="30" x2="192" y2="190" gradientUnits="userSpaceOnUse"><stop stop-color="#f5b942"/><stop offset=".5" stop-color="#2f6df6"/><stop offset="1" stop-color="#101827"/></linearGradient></defs>
+  <path fill="url(#g)" d="M110 10 188 55v110l-78 45-78-45V55z"/><path fill="#f8fbff" d="M110 28 172 64v92l-62 36-62-36V64z"/>
+  <path fill="none" stroke="#101827" stroke-linecap="round" stroke-width="10" d="M78 92h64c16 0 29 13 29 29s-13 29-29 29h-18M142 128H78c-16 0-29-13-29-29s13-29 29-29h18"/>
+  <circle cx="110" cy="110" r="25" fill="#2f6df6"/><path fill="#fff" d="m103 119-11-11 8-8 5 5 16-18 8 7z"/>
+  <rect x="36" y="166" width="148" height="24" rx="12" fill="#101827"/><text x="110" y="183" fill="#fff" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">ONCHAIN VERIFIER</text>
+</svg>

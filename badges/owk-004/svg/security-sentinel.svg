@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Security Sentinel contributor badge" viewBox="0 0 220 220">
+  <title>Security Sentinel</title><desc>A red contributor badge for accepted security reports or patches.</desc>
+  <defs><linearGradient id="g" x1="24" y1="32" x2="196" y2="188" gradientUnits="userSpaceOnUse"><stop stop-color="#ff9db2"/><stop offset="1" stop-color="#ef476f"/></linearGradient></defs>
+  <path fill="url(#g)" d="M110 10 188 55v110l-78 45-78-45V55z"/><path fill="#fff5f7" d="M110 28 172 64v92l-62 36-62-36V64z"/>
+  <path fill="#101827" d="M110 52 154 68v32c0 36-20 61-44 75-24-14-44-39-44-75V68z"/><path fill="#ef476f" d="M110 74 136 84v18c0 23-11 40-26 51-15-11-26-28-26-51V84z"/>
+  <path fill="#fff" d="M104 126 88 110l10-10 8 8 20-24 11 9z"/>
+  <rect x="38" y="166" width="144" height="24" rx="12" fill="#101827"/><text x="110" y="183" fill="#fff" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">SECURITY SENTINEL</text>
+</svg>

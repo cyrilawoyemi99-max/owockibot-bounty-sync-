@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Seven Day Streak contributor badge" viewBox="0 0 220 220">
+  <title>Seven Day Streak</title><desc>A warm contributor badge for seven consecutive active bounty days.</desc>
+  <defs><linearGradient id="g" x1="26" y1="30" x2="194" y2="190" gradientUnits="userSpaceOnUse"><stop stop-color="#ffcf70"/><stop offset=".55" stop-color="#ff7a45"/><stop offset="1" stop-color="#ef476f"/></linearGradient></defs>
+  <path fill="url(#g)" d="M110 10 188 55v110l-78 45-78-45V55z"/><path fill="#fff6ef" d="M110 28 172 64v92l-62 36-62-36V64z"/>
+  <path fill="#ef476f" d="M110 54c14 25 42 43 42 74 0 25-19 44-42 44s-42-19-42-44c0-21 13-35 27-50 7-8 12-15 15-24z"/><path fill="#f5b942" d="M112 98c8 13 22 23 22 39 0 14-10 24-24 24s-24-10-24-24c0-12 8-21 17-30 4-4 7-8 9-9z"/>
+  <rect x="47" y="166" width="126" height="24" rx="12" fill="#101827"/><text x="110" y="183" fill="#fff" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">SEVEN STREAK</text>
+</svg>

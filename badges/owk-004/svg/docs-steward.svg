@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Docs Steward contributor badge" viewBox="0 0 220 220">
+  <title>Docs Steward</title><desc>A cyan contributor badge for documentation and translation stewardship.</desc>
+  <defs><linearGradient id="g" x1="26" y1="26" x2="194" y2="194" gradientUnits="userSpaceOnUse"><stop stop-color="#a9f3ff"/><stop offset="1" stop-color="#3ab6c8"/></linearGradient></defs>
+  <path fill="url(#g)" d="M110 10 188 55v110l-78 45-78-45V55z"/><path fill="#f8fbff" d="M110 28 172 64v92l-62 36-62-36V64z"/>
+  <path fill="#101827" d="M72 60h47l29 29v73H72z"/><path fill="#fff" d="M84 73h28v24h24v52H84z"/><path fill="#3ab6c8" d="M119 73v23h23z"/>
+  <path stroke="#101827" stroke-linecap="round" stroke-width="7" d="M93 114h35M93 132h35M93 150h24"/>
+  <rect x="48" y="166" width="124" height="24" rx="12" fill="#101827"/><text x="110" y="183" fill="#fff" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">DOCS STEWARD</text>
+</svg>
