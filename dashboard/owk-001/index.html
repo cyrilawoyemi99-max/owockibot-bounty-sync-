@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>owockibot Reputation Dashboard</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <img src="./assets/reputation-ledger.svg" alt="" class="brand-mark">
+        <div>
+          <p class="eyebrow">owockibot</p>
+          <h1>Contributor Reputation</h1>
+        </div>
+      </div>
+      <div class="status-pill" id="dataStatus">Loading data</div>
+    </header>
+
+    <main class="dashboard-shell">
+      <section class="control-strip" aria-label="Contributor controls">
+        <label class="field">
+          <span>Contributor</span>
+          <select id="contributorSelect"></select>
+        </label>
+        <label class="field wallet-field">
+          <span>Wallet or handle</span>
+          <input id="walletSearch" type="search" autocomplete="off" placeholder="0x... or contributor name">
+        </label>
+        <button id="refreshButton" type="button" class="refresh-button">Refresh</button>
+      </section>
+
+      <section class="profile-band">
+        <div>
+          <p class="eyebrow">Profile</p>
+          <h2 id="profileName">-</h2>
+          <p id="profileBio" class="profile-bio"></p>
+          <p id="profileWallet" class="wallet-text"></p>
+        </div>
+        <div class="score-panel" aria-label="Reputation score">
+          <div class="score-ring" id="scoreRing">
+            <span id="reputationScore">0</span>
+          </div>
+          <p>Reputation score</p>
+        </div>
+      </section>
+
+      <section class="metric-grid" aria-label="Contributor metrics">
+        <article class="metric-tile">
+          <span class="metric-label">Completed</span>
+          <strong id="completedCount">0</strong>
+          <span class="metric-note">bounties</span>
+        </article>
+        <article class="metric-tile">
+          <span class="metric-label">Earned</span>
+          <strong id="earnedTotal">$0</strong>
+          <span class="metric-note">settled rewards</span>
+        </article>
+        <article class="metric-tile">
+          <span class="metric-label">Streak</span>
+          <strong id="streakCount">0</strong>
+          <span class="metric-note">active weeks</span>
+        </article>
+        <article class="metric-tile">
+          <span class="metric-label">Primary Skill</span>
+          <strong id="primarySkill">-</strong>
+          <span class="metric-note">by completed value</span>
+        </article>
+      </section>
+
+      <section class="content-grid">
+        <article class="panel expertise-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Category Expertise</p>
+            <h3>Earned reputation by work type</h3>
+          </div>
+          <div id="expertiseBars" class="bar-list"></div>
+        </article>
+
+        <article class="panel proof-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Onchain Proof</p>
+            <h3>Receipts and submission links</h3>
+          </div>
+          <div id="proofList" class="proof-list"></div>
+        </article>
+      </section>
+
+      <section class="panel timeline-panel">
+        <div class="section-heading">
+          <p class="eyebrow">Timeline</p>
+          <h3>Completed work cadence</h3>
+        </div>
+        <ol id="timeline" class="timeline"></ol>
+      </section>
+
+      <section class="panel table-panel">
+        <div class="section-heading">
+          <p class="eyebrow">Completed Bounties</p>
+          <h3>Contribution ledger</h3>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Bounty</th>
+                <th>Category</th>
+                <th>Reward</th>
+                <th>Completed</th>
+                <th>Proof</th>
+              </tr>
+            </thead>
+            <tbody id="bountyRows"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
