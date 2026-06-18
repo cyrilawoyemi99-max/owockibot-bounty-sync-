@@ -1,0 +1,156 @@
+{
+  "generated_at": "2026-06-17T00:00:00Z",
+  "network": "base",
+  "contributors": [
+    {
+      "id": "contributor-verity",
+      "display_name": "verity",
+      "wallet": "0x7a3c9a4fd2895c447e6b21114ec55fa8d4af2e91",
+      "joined_at": "2026-05-18",
+      "last_active": "2026-06-16",
+      "bio": "Engineering, security, and design contributor focused on verified bounty delivery.",
+      "proofs": [
+        {
+          "kind": "pr",
+          "label": "GitHub PR",
+          "url": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/7",
+          "status": "merged"
+        },
+        {
+          "kind": "payout",
+          "label": "USDC payout receipt",
+          "tx_hash": "0x7cfb5bb3d5e0fb2be72f5d76b87786fd98bd82ba8db0a95c6f6a4ce119271b63",
+          "status": "settled"
+        }
+      ],
+      "completed_bounties": [
+        {
+          "id": "owk-004",
+          "title": "Design a contributor badge system",
+          "category": "Design",
+          "reward": 400,
+          "currency": "USDC",
+          "completed_at": "2026-06-14",
+          "proof_url": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/7",
+          "tx_hash": "0x7cfb5bb3d5e0fb2be72f5d76b87786fd98bd82ba8db0a95c6f6a4ce119271b63"
+        },
+        {
+          "id": "owk-011",
+          "title": "Escrow event indexer prototype",
+          "category": "Engineering",
+          "reward": 650,
+          "currency": "USDC",
+          "completed_at": "2026-06-08",
+          "proof_url": "https://github.com/example/owockibot-indexer/pull/12",
+          "tx_hash": "0xc9bcb4d8a7183d6d477cb99a6f1e09c0ebce3861f3a22bc92123dd21434ad9e0"
+        },
+        {
+          "id": "owk-014",
+          "title": "Bounty board accessibility pass",
+          "category": "Engineering",
+          "reward": 300,
+          "currency": "USDC",
+          "completed_at": "2026-05-30",
+          "proof_url": "https://github.com/example/owockibot-web/pull/19",
+          "tx_hash": "0x5ea0f46b7da7a911a2f2ca3a9d50fa0fc28ed4c813ad2498dc566ec36e6ac4a1"
+        },
+        {
+          "id": "owk-018",
+          "title": "Contributor onboarding guide",
+          "category": "Content",
+          "reward": 225,
+          "currency": "USDC",
+          "completed_at": "2026-05-24",
+          "proof_url": "https://github.com/example/owockibot-docs/pull/4",
+          "tx_hash": "0x44b5ee8f7854d2c5d66f35c47a2bd7d611739209d2699a459b26a673b938c56f"
+        }
+      ]
+    },
+    {
+      "id": "contributor-river",
+      "display_name": "river",
+      "wallet": "0x1f83d85e8a901e49d2cd215d9ad053e7c3f1a6b4",
+      "joined_at": "2026-04-30",
+      "last_active": "2026-06-11",
+      "bio": "Security and research contributor shipping focused audit reports.",
+      "proofs": [
+        {
+          "kind": "payout",
+          "label": "USDC payout receipt",
+          "tx_hash": "0xf7e19a3d1c97b3f3a3872dbd02ab9b7b46619d031dc6e7da5c1f0133d226c1ac",
+          "status": "settled"
+        }
+      ],
+      "completed_bounties": [
+        {
+          "id": "owk-005",
+          "title": "Security audit - bounty escrow smart contract",
+          "category": "Security",
+          "reward": 1200,
+          "currency": "USDC",
+          "completed_at": "2026-06-11",
+          "proof_url": "https://github.com/example/owockibot-audits/pull/8",
+          "tx_hash": "0xf7e19a3d1c97b3f3a3872dbd02ab9b7b46619d031dc6e7da5c1f0133d226c1ac"
+        },
+        {
+          "id": "owk-009",
+          "title": "Escrow invariant test suite",
+          "category": "Security",
+          "reward": 550,
+          "currency": "USDC",
+          "completed_at": "2026-05-29",
+          "proof_url": "https://github.com/example/owockibot-contracts/pull/21",
+          "tx_hash": "0xc07d6b0d083fc83283ea0f7a09ad9c1cb41a8a1241d31e6bbde5fae241c92215"
+        },
+        {
+          "id": "owk-017",
+          "title": "Public goods funding research brief",
+          "category": "Research",
+          "reward": 350,
+          "currency": "USDC",
+          "completed_at": "2026-05-17",
+          "proof_url": "https://github.com/example/owockibot-research/pull/3",
+          "tx_hash": "0x36c023db1c4bc272dc2dd4ea2fd0f38f4c8d613869f3f8b823f8dcdf2427e54b"
+        }
+      ]
+    },
+    {
+      "id": "contributor-mira",
+      "display_name": "mira",
+      "wallet": "0xb2d0e4a9fa8f4a15e7673aab8db6f2f52c2830a7",
+      "joined_at": "2026-06-01",
+      "last_active": "2026-06-15",
+      "bio": "Documentation and translation contributor.",
+      "proofs": [
+        {
+          "kind": "payout",
+          "label": "USDC payout receipt",
+          "tx_hash": "0xd52a7160e72f9f83780711f5db09b3d106f3ab31e5e87fe4a20384ef2abf8c00",
+          "status": "settled"
+        }
+      ],
+      "completed_bounties": [
+        {
+          "id": "owk-003",
+          "title": "Translate contributor docs into Portuguese",
+          "category": "Translation",
+          "reward": 150,
+          "currency": "USDC",
+          "completed_at": "2026-06-15",
+          "proof_url": "https://github.com/example/owockibot-docs/pull/11",
+          "tx_hash": "0xd52a7160e72f9f83780711f5db09b3d106f3ab31e5e87fe4a20384ef2abf8c00"
+        },
+        {
+          "id": "owk-006",
+          "title": "Community call recap",
+          "category": "Content",
+          "reward": 75,
+          "currency": "USDC",
+          "completed_at": "2026-06-10",
+          "proof_url": "https://github.com/example/owockibot-content/pull/2",
+          "tx_hash": "0x980f7c3171bc5ce7bfe935cc52cdf9746aa9a43bf225dc8713a65b823aacddc8"
+        }
+      ]
+    }
+  ]
+}

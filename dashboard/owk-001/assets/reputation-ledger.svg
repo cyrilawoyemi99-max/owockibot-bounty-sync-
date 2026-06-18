@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="Onchain reputation ledger visualization">
+  <rect width="640" height="360" rx="0" fill="#f7f3ea"/>
+  <rect x="56" y="50" width="528" height="260" rx="18" fill="#ffffff" stroke="#24313f" stroke-width="3"/>
+  <rect x="88" y="84" width="168" height="54" rx="12" fill="#0f7b77"/>
+  <rect x="280" y="84" width="272" height="54" rx="12" fill="#f1b441"/>
+  <rect x="88" y="164" width="112" height="34" rx="8" fill="#24313f"/>
+  <rect x="220" y="164" width="112" height="34" rx="8" fill="#c94c43"/>
+  <rect x="352" y="164" width="112" height="34" rx="8" fill="#0f7b77"/>
+  <rect x="88" y="226" width="464" height="10" rx="5" fill="#d8e1df"/>
+  <rect x="88" y="226" width="315" height="10" rx="5" fill="#0f7b77"/>
+  <circle cx="118" cy="262" r="13" fill="#f1b441" stroke="#24313f" stroke-width="3"/>
+  <circle cx="236" cy="262" r="13" fill="#f7f3ea" stroke="#24313f" stroke-width="3"/>
+  <circle cx="354" cy="262" r="13" fill="#f7f3ea" stroke="#24313f" stroke-width="3"/>
+  <circle cx="472" cy="262" r="13" fill="#f7f3ea" stroke="#24313f" stroke-width="3"/>
+  <path d="M131 262H223M249 262H341M367 262H459" stroke="#24313f" stroke-width="4" stroke-linecap="round"/>
+  <path d="M108 111h126M300 111h230M107 181h72M239 181h72M371 181h72" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity=".88"/>
+</svg>
