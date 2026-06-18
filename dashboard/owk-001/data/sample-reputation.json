@@ -1,0 +1,215 @@
+{
+  "isSample": true,
+  "notice": "Synthetic demo data for local dashboard review; not a payout ledger and not evidence of completed owockibot rewards.",
+  "updatedAt": "2026-06-18T10:45:00Z",
+  "contributors": [
+    {
+      "id": "mira-sol",
+      "handle": "mira.sol",
+      "displayName": "Mira Sol",
+      "wallet": "0x8e3b92a2f0d76f0a6c27f4ad1278a7c30d7a4a11",
+      "skills": ["Security", "Solidity", "Research"],
+      "links": {
+        "github": "https://example.com/owockibot-demo-proof/mira-sol",
+        "profile": "https://owockibot.xyz/contributor/mira.sol"
+      },
+      "completedBounties": [
+        {
+          "id": "owk-005",
+          "title": "Security audit - bounty escrow smart contract",
+          "category": "Security",
+          "reward": 1200,
+          "currency": "USDC",
+          "completedAt": "2026-06-16",
+          "status": "verified",
+          "chain": "Base",
+          "txHash": "0x5b8d0f917bc68f19aebdd9aef6c5d38fda54047d02a4c2af09384df20fbbf105",
+          "sourceUrl": "https://example.com/owockibot-demo-proof/28",
+          "summary": "Manual escrow review with replay, signature, and scope mismatch findings."
+        },
+        {
+          "id": "owk-018",
+          "title": "Escrow settlement invariant tests",
+          "category": "Security",
+          "reward": 350,
+          "currency": "USDC",
+          "completedAt": "2026-06-09",
+          "status": "verified",
+          "chain": "Base",
+          "txHash": "0x12d741fb2bbdf004ef261f2e47f91650ab345f91b5dd571407ea46fdcbb35af0",
+          "sourceUrl": "https://example.com/owockibot-demo-proof/82",
+          "summary": "Added settlement edge-case coverage around zero amounts and repeated releases."
+        },
+        {
+          "id": "owk-022",
+          "title": "Coordinator runbook threat model",
+          "category": "Research",
+          "reward": 275,
+          "currency": "USDC",
+          "completedAt": "2026-06-03",
+          "status": "verified",
+          "chain": "Base",
+          "txHash": "0x686c946a527cd99ec73814220956cf8c1ded08ef218416e03d4aeb952f11823e",
+          "sourceUrl": "https://example.com/owockibot-demo-proof/14",
+          "summary": "Mapped coordinator, reviewer, and funder failure modes into an operator runbook."
+        }
+      ]
+    },
+    {
+      "id": "dev-karma",
+      "handle": "devkarma",
+      "displayName": "Dev Karma",
+      "wallet": "0x71fe31d3e4ef9259c768e2a3220cb92b3a2f41bd",
+      "skills": ["Engineering", "Design Systems", "Frontend"],
+      "links": {
+        "github": "https://example.com/owockibot-demo-proof/devkarma",
+        "profile": "https://owockibot.xyz/contributor/devkarma"
+      },
+      "completedBounties": [
+        {
+          "id": "owk-001",
+          "title": "Onchain contributor reputation dashboard",
+          "category": "Engineering",
+          "reward": 750,
+          "currency": "USDC",
+          "completedAt": "2026-06-17",
+          "status": "verified",
+          "chain": "Base",
+          "txHash": "0xb1248ee5ee5ac7851f650c23fd6e0324f6371f723b4e4d4c2f0287500e421bc4",
+          "sourceUrl": "https://example.com/owockibot-demo-proof/8",
+          "summary": "Dashboard shell, sample ledger, category expertise, and proof receipt panels."
+        },
+        {
+          "id": "owk-004",
+          "title": "Contributor badge system",
+          "category": "Design",
+          "reward": 400,
+          "currency": "USDC",
+          "completedAt": "2026-06-12",
+          "status": "verified",
+          "chain": "Base",
+          "txHash": "0xffdbd1e9b6e3313be9b662a35d2786f2a99f1be7c22d69772212b9a632a90458",
+          "sourceUrl": "https://example.com/owockibot-demo-proof/12",
+          "summary": "Eight SVG milestone badges with accessible labels and style guidance."
+        },
+        {
+          "id": "owk-021",
+          "title": "Bounty board mobile polish",
+          "category": "Engineering",
+          "reward": 225,
+          "currency": "USDC",
+          "completedAt": "2026-06-04",
+          "status": "verified",
+          "chain": "Base",
+          "txHash": "0xf334a4377c350ee95c113d8f584a3631b3477723e9c0b37a019918b07ecf037a",
+          "sourceUrl": "https://example.com/owockibot-demo-proof/46",
+          "summary": "Improved responsive bounty cards, filter states, and empty results handling."
+        },
+        {
+          "id": "owk-020",
+          "title": "Submission quality checklist",
+          "category": "Content",
+          "reward": 160,
+          "currency": "USDC",
+          "completedAt": "2026-05-29",
+          "status": "verified",
+          "chain": "Base",
+          "txHash": "0x9690e36579ac4f6c9ec5df4ec54a25d2c31b8ae3f4442fd21ce7aa539d50ee81",
+          "sourceUrl": "https://example.com/owockibot-demo-proof/8",
+          "summary": "Contributor-facing checklist for proof quality, testing, and payout handoff."
+        }
+      ]
+    },
+    {
+      "id": "atlas-byte",
+      "handle": "atlasbyte",
+      "displayName": "Atlas Byte",
+      "wallet": "0x43b2eb8966a899e7de2c2dd44a5c8d7e32e90808",
+      "skills": ["Translation", "Documentation", "Community"],
+      "links": {
+        "github": "https://example.com/owockibot-demo-proof/atlasbyte",
+        "profile": "https://owockibot.xyz/contributor/atlasbyte"
+      },
+      "completedBounties": [
+        {
+          "id": "owk-003",
+          "title": "Portuguese contributor docs",
+          "category": "Translation",
+          "reward": 150,
+          "currency": "USDC",
+          "completedAt": "2026-06-14",
+          "status": "verified",
+          "chain": "Base",
+          "txHash": "0xd31a5bd3ea77c91690002de1f2583f56f2403af24d6b757870ff2a71486dc4f7",
+          "sourceUrl": "https://example.com/owockibot-demo-proof/10",
+          "summary": "Brazilian Portuguese documentation with preserved Markdown structure and links."
+        },
+        {
+          "id": "owk-006",
+          "title": "Community call recap - June 2026",
+          "category": "Content",
+          "reward": 75,
+          "currency": "USDC",
+          "completedAt": "2026-06-11",
+          "status": "verified",
+          "chain": "Base",
+          "txHash": "0x28672a81c7ab5e88d4dd101eaefad27dd7a2e6c21ecdb777d66257cabd850991",
+          "sourceUrl": "https://example.com/owockibot-demo-proof/19",
+          "summary": "Decision log, action items, and TLDR recap for the June community call."
+        },
+        {
+          "id": "owk-014",
+          "title": "Spanish FAQ localization",
+          "category": "Translation",
+          "reward": 120,
+          "currency": "USDC",
+          "completedAt": "2026-05-30",
+          "status": "verified",
+          "chain": "Base",
+          "txHash": "0xf0b070f24c760692544b940da1bf7b4a64db43b94c7eb0687b144638d7371f9b",
+          "sourceUrl": "https://example.com/owockibot-demo-proof/6",
+          "summary": "Localized frequently asked contributor questions for Spanish-speaking builders."
+        }
+      ]
+    },
+    {
+      "id": "proof-nova",
+      "handle": "proofnova",
+      "displayName": "Proof Nova",
+      "wallet": "0x0df03b7842cfb498d3f26c44d6fa0e3a1d85eed1",
+      "skills": ["Data", "Analytics", "Research"],
+      "links": {
+        "github": "https://example.com/owockibot-demo-proof/proofnova",
+        "profile": "https://owockibot.xyz/contributor/proofnova"
+      },
+      "completedBounties": [
+        {
+          "id": "owk-012",
+          "title": "Completed bounty export schema",
+          "category": "Engineering",
+          "reward": 320,
+          "currency": "USDC",
+          "completedAt": "2026-06-15",
+          "status": "verified",
+          "chain": "Base",
+          "txHash": "0x64ce07e3c45c9f8edc3d9e02653cadb3849ebca73dc0669fbc8b19f51acfd474",
+          "sourceUrl": "https://example.com/owockibot-demo-proof/31",
+          "summary": "Normalized contributor, bounty, payout, and source proof fields for downstream dashboards."
+        },
+        {
+          "id": "owk-017",
+          "title": "Reputation scoring memo",
+          "category": "Research",
+          "reward": 240,
+          "currency": "USDC",
+          "completedAt": "2026-06-08",
+          "status": "verified",
+          "chain": "Base",
+          "txHash": "0x8202f0303ca674a81a67a37a74697c851d264693d9f8058f2da8e041cb90aa71",
+          "sourceUrl": "https://example.com/owockibot-demo-proof/22",
+          "summary": "Proposed a transparent score model that avoids pure reward farming incentives."
+        }
+      ]
+    }
+  ]
+}

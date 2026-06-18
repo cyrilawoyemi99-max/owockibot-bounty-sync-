@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OWK-001 Onchain Reputation Dashboard</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">OWK-001</p>
+      <h1>Onchain reputation for owockibot contributors</h1>
+      <p class="lede">Search contributors, inspect completed bounties, and trace the proof behind every reputation signal.</p>
+    </div>
+    <div class="sync-panel" aria-label="Data status">
+      <span id="dataStatus">Loading local reputation data...</span>
+      <strong id="lastUpdated">--</strong>
+    </div>
+  </header>
+
+  <main>
+    <section class="toolbar" aria-label="Contributor filters">
+      <label class="search-box">
+        <span>Search contributors</span>
+        <input id="searchInput" type="search" placeholder="Handle, wallet, category, skill" autocomplete="off">
+      </label>
+      <label class="select-box">
+        <span>Category</span>
+        <select id="categoryFilter">
+          <option value="all">All categories</option>
+        </select>
+      </label>
+      <label class="select-box">
+        <span>Sort</span>
+        <select id="sortSelect">
+          <option value="score">Reputation score</option>
+          <option value="earned">Earned USDC</option>
+          <option value="streak">Current streak</option>
+          <option value="recent">Most recent proof</option>
+        </select>
+      </label>
+    </section>
+
+    <section class="metric-grid" aria-label="Network summary">
+      <article class="metric">
+        <span>Contributors</span>
+        <strong id="metricContributors">0</strong>
+      </article>
+      <article class="metric">
+        <span>Verified bounties</span>
+        <strong id="metricBounties">0</strong>
+      </article>
+      <article class="metric">
+        <span>USDC paid</span>
+        <strong id="metricEarned">$0</strong>
+      </article>
+      <article class="metric">
+        <span>Proof coverage</span>
+        <strong id="metricProof">0%</strong>
+      </article>
+    </section>
+
+    <section class="layout">
+      <aside class="contributors-panel" aria-label="Contributor list">
+        <div class="panel-heading">
+          <h2>Contributors</h2>
+          <span id="resultCount">0 results</span>
+        </div>
+        <div id="contributorList" class="contributor-list"></div>
+      </aside>
+
+      <section class="profile-panel" aria-live="polite">
+        <div id="emptyState" class="empty-state">
+          <h2>Select a contributor</h2>
+          <p>Choose a profile to inspect score inputs, expertise, streaks, and onchain receipts.</p>
+        </div>
+
+        <article id="profileView" class="profile-view" hidden>
+          <div class="profile-topline">
+            <div>
+              <p class="eyebrow">Contributor profile</p>
+              <h2 id="profileName"></h2>
+              <p id="profileMeta"></p>
+            </div>
+            <div class="score-chip">
+              <span>Score</span>
+              <strong id="profileScore">0</strong>
+            </div>
+          </div>
+
+          <dl class="profile-stats">
+            <div>
+              <dt>Completed</dt>
+              <dd id="profileCompleted">0</dd>
+            </div>
+            <div>
+              <dt>Earned</dt>
+              <dd id="profileEarned">$0</dd>
+            </div>
+            <div>
+              <dt>Current streak</dt>
+              <dd id="profileStreak">0 weeks</dd>
+            </div>
+            <div>
+              <dt>Primary skill</dt>
+              <dd id="profilePrimary">--</dd>
+            </div>
+          </dl>
+
+          <div class="section-heading">
+            <h3>Category expertise</h3>
+            <span id="categoryNote"></span>
+          </div>
+          <div id="expertiseChart" class="expertise-chart"></div>
+
+          <div class="section-heading">
+            <h3>Proof timeline</h3>
+            <span>Newest first</span>
+          </div>
+          <div id="timeline" class="timeline"></div>
+        </article>
+      </section>
+    </section>
+  </main>
+
+  <dialog id="receiptDialog">
+    <form method="dialog">
+      <button class="icon-button" aria-label="Close receipt">x</button>
+    </form>
+    <div id="receiptBody"></div>
+  </dialog>
+
+  <script src="./app.js"></script>
+</body>
+</html>
