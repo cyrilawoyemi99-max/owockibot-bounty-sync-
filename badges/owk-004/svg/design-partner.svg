@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Design Partner contributor badge" viewBox="0 0 220 220">
+  <title>Design Partner</title><desc>A purple contributor badge for accepted product and visual design work.</desc>
+  <defs><linearGradient id="g" x1="28" y1="30" x2="192" y2="190" gradientUnits="userSpaceOnUse"><stop stop-color="#cabdff"/><stop offset="1" stop-color="#7d5cff"/></linearGradient></defs>
+  <path fill="url(#g)" d="M110 10 188 55v110l-78 45-78-45V55z"/><path fill="#fbfaff" d="M110 28 172 64v92l-62 36-62-36V64z"/>
+  <circle cx="84" cy="88" r="18" fill="#ef476f"/><circle cx="136" cy="88" r="18" fill="#2f6df6"/><circle cx="110" cy="132" r="18" fill="#1aa873"/>
+  <path fill="#101827" d="m77 151 61-75 11 9-61 75z"/><circle cx="82" cy="156" r="10" fill="#101827"/>
+  <rect x="45" y="166" width="130" height="24" rx="12" fill="#101827"/><text x="110" y="183" fill="#fff" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">DESIGN PARTNER</text>
+</svg>
