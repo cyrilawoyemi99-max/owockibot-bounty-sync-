@@ -1,0 +1,62 @@
+{
+  "bounty_id": "owk-004",
+  "title": "OWK Contributor Badge System",
+  "reward": "400 USDC",
+  "format": "standalone optimized SVG",
+  "generated_at": "2026-06-23T00:00:00.000Z",
+  "badges": [
+    {
+      "id": "first-claim",
+      "label": "First Claim",
+      "file": "svg/01-first-claim.svg",
+      "criterion": "Awarded when a contributor successfully claims their first bounty."
+    },
+    {
+      "id": "merge-maker",
+      "label": "Merge Maker",
+      "file": "svg/02-merge-maker.svg",
+      "criterion": "Awarded when a contributor ships their first accepted merge."
+    },
+    {
+      "id": "five-shipments",
+      "label": "Five Shipments",
+      "file": "svg/03-five-shipments.svg",
+      "criterion": "Awarded when a contributor completes five accepted shipments."
+    },
+    {
+      "id": "streak-seven",
+      "label": "Seven Day Streak",
+      "file": "svg/04-streak-seven.svg",
+      "criterion": "Awarded for a seven day shipping or review streak."
+    },
+    {
+      "id": "security-sentinel",
+      "label": "Security Sentinel",
+      "file": "svg/05-security-sentinel.svg",
+      "criterion": "Awarded for accepted security review, vulnerability fix, or safety hardening work."
+    },
+    {
+      "id": "docs-steward",
+      "label": "Docs Steward",
+      "file": "svg/06-docs-steward.svg",
+      "criterion": "Awarded for documentation that makes a mechanism easier to use or maintain."
+    },
+    {
+      "id": "design-partner",
+      "label": "Design Partner",
+      "file": "svg/07-design-partner.svg",
+      "criterion": "Awarded for reusable design systems, visual assets, and polished contributor-facing UX."
+    },
+    {
+      "id": "onchain-verifier",
+      "label": "Onchain Verifier",
+      "file": "svg/08-onchain-verifier.svg",
+      "criterion": "Awarded for work that verifies payment, attestations, proofs, or chain-facing records."
+    }
+  ],
+  "validation": [
+    "exactly 8 SVG files",
+    "standalone SVG with no scripts, external href references, or remote assets",
+    "each SVG includes title, desc, role=img, and aria-label"
+  ]
+}

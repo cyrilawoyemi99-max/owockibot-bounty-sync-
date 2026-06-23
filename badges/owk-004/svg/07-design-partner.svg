@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="OWK Design Partner contributor badge" style="--bg:#E86F51;--accent:#82C7E8;--ink:#10231F;--paper:#F7F2E8">
+<title>OWK Design Partner contributor badge</title>
+<desc>Awarded for reusable design systems, visual assets, and polished contributor-facing UX.</desc>
+<circle cx="128" cy="128" r="118" fill="var(--bg)"/>
+<circle cx="128" cy="128" r="102" fill="none" stroke="var(--paper)" stroke-width="7"/>
+<circle cx="128" cy="128" r="88" fill="rgba(247,242,232,.12)" stroke="var(--ink)" stroke-width="4"/>
+
+      <rect x="77" y="79" width="102" height="102" rx="24" fill="var(--accent)" stroke="var(--ink)" stroke-width="8"/>
+      <circle cx="108" cy="113" r="12" fill="var(--paper)" stroke="var(--ink)" stroke-width="6"/>
+      <circle cx="149" cy="113" r="12" fill="var(--paper)" stroke="var(--ink)" stroke-width="6"/>
+      <path d="M104 150c14 14 34 14 48 0" fill="none" stroke="var(--paper)" stroke-width="9" stroke-linecap="round"/>
+      <path d="M82 188l28-28M174 72l-28 28" stroke="var(--ink)" stroke-width="8" stroke-linecap="round"/>
+<path d="M72 50c30-20 82-20 112 0" fill="none" stroke="var(--paper)" stroke-width="6" stroke-linecap="round" opacity=".75"/>
+<text x="128" y="231" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="800" letter-spacing="1.2" fill="var(--paper)">OWK-DP</text>
+</svg>

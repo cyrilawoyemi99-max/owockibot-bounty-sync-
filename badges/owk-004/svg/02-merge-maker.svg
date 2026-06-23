@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="OWK Merge Maker contributor badge" style="--bg:#16423C;--accent:#82C7E8;--ink:#10231F;--paper:#F7F2E8">
+<title>OWK Merge Maker contributor badge</title>
+<desc>Awarded when a contributor ships their first accepted merge.</desc>
+<circle cx="128" cy="128" r="118" fill="var(--bg)"/>
+<circle cx="128" cy="128" r="102" fill="none" stroke="var(--paper)" stroke-width="7"/>
+<circle cx="128" cy="128" r="88" fill="rgba(247,242,232,.12)" stroke="var(--ink)" stroke-width="4"/>
+
+      <path d="M86 78v73c0 22 16 38 38 38h46" fill="none" stroke="var(--accent)" stroke-width="13" stroke-linecap="round"/>
+      <path d="M170 189l-20-18m20 18-20 18" fill="none" stroke="var(--accent)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="86" cy="78" r="18" fill="var(--paper)" stroke="var(--ink)" stroke-width="8"/>
+      <circle cx="86" cy="151" r="18" fill="var(--paper)" stroke="var(--ink)" stroke-width="8"/>
+      <circle cx="170" cy="189" r="18" fill="var(--paper)" stroke="var(--ink)" stroke-width="8"/>
+<path d="M72 50c30-20 82-20 112 0" fill="none" stroke="var(--paper)" stroke-width="6" stroke-linecap="round" opacity=".75"/>
+<text x="128" y="231" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="800" letter-spacing="1.2" fill="var(--paper)">OWK-02</text>
+</svg>

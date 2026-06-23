@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="OWK Docs Steward contributor badge" style="--bg:#82C7E8;--accent:#16423C;--ink:#10231F;--paper:#F7F2E8">
+<title>OWK Docs Steward contributor badge</title>
+<desc>Awarded for documentation that makes a mechanism easier to use or maintain.</desc>
+<circle cx="128" cy="128" r="118" fill="var(--bg)"/>
+<circle cx="128" cy="128" r="102" fill="none" stroke="var(--paper)" stroke-width="7"/>
+<circle cx="128" cy="128" r="88" fill="rgba(247,242,232,.12)" stroke="var(--ink)" stroke-width="4"/>
+
+      <path d="M82 70h55c18 0 32 14 32 32v84H106c-13 0-24 11-24 24V70Z" fill="var(--paper)" stroke="var(--ink)" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M106 100h40M106 126h46M106 152h38" stroke="var(--accent)" stroke-width="8" stroke-linecap="round"/>
+      <path d="M82 210c0-13 11-24 24-24h63" fill="none" stroke="var(--ink)" stroke-width="8" stroke-linecap="round"/>
+<path d="M72 50c30-20 82-20 112 0" fill="none" stroke="var(--paper)" stroke-width="6" stroke-linecap="round" opacity=".75"/>
+<text x="128" y="231" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="800" letter-spacing="1.2" fill="var(--paper)">OWK-D</text>
+</svg>
