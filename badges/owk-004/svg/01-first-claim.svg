@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="OWK First Claim contributor badge" style="--bg:#4F8A5B;--accent:#F6C453;--ink:#10231F;--paper:#F7F2E8">
+<title>OWK First Claim contributor badge</title>
+<desc>Awarded when a contributor successfully claims their first bounty.</desc>
+<circle cx="128" cy="128" r="118" fill="var(--bg)"/>
+<circle cx="128" cy="128" r="102" fill="none" stroke="var(--paper)" stroke-width="7"/>
+<circle cx="128" cy="128" r="88" fill="rgba(247,242,232,.12)" stroke="var(--ink)" stroke-width="4"/>
+
+      <path d="M82 130c25-43 65-52 105-43-11 37-39 63-82 64l-23-21Z" fill="var(--accent)"/>
+      <path d="M90 137c24-14 49-24 83-36" stroke="var(--ink)" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="82" cy="145" r="16" fill="var(--paper)" stroke="var(--ink)" stroke-width="8"/>
+      <path d="M76 145l7 7 14-18" fill="none" stroke="var(--ink)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M72 50c30-20 82-20 112 0" fill="none" stroke="var(--paper)" stroke-width="6" stroke-linecap="round" opacity=".75"/>
+<text x="128" y="231" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="800" letter-spacing="1.2" fill="var(--paper)">OWK-01</text>
+</svg>
