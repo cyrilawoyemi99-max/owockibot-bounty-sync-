@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OWK-001 Contributor Reputation</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="https://owockibot.xyz/bounty/owk-001" target="_blank" rel="noreferrer">
+          <span class="brand-mark" aria-hidden="true">OWK</span>
+          <span>
+            <strong>OWK-001</strong>
+            <small>Contributor Reputation</small>
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="Dashboard sections">
+          <a class="nav-link" href="#leaderboard">Leaderboard</a>
+          <a class="nav-link" href="#proofs">Proof ledger</a>
+          <a class="nav-link" href="#categories">Categories</a>
+          <a class="nav-link" href="#data">Data source</a>
+        </nav>
+
+        <section class="filters" aria-label="Leaderboard filters">
+          <div class="section-label">Filters</div>
+          <label>
+            Search contributor
+            <input id="searchInput" type="search" placeholder="GitHub handle or wallet" autocomplete="off" />
+          </label>
+          <label>
+            Category
+            <select id="categoryFilter">
+              <option value="all">All categories</option>
+            </select>
+          </label>
+          <label>
+            Minimum reputation
+            <input id="scoreFilter" type="range" min="0" max="5000" value="0" step="100" />
+            <span id="scoreFilterLabel" class="range-value">0+</span>
+          </label>
+          <label class="toggle-row">
+            <span>Completed work only</span>
+            <input id="completedOnly" type="checkbox" />
+          </label>
+          <button id="resetFilters" class="button button-ghost" type="button">Reset filters</button>
+        </section>
+
+        <section id="data" class="data-note">
+          <div class="section-label">Data source</div>
+          <p>
+            Loads public GitHub issue, comment, and PR data for the owockibot mirror.
+            Optional onchain payout receipts can be supplied through
+            <code>data/receipts.example.json</code>.
+          </p>
+        </section>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div class="source-card">
+            <span class="github-dot" aria-hidden="true"></span>
+            <div>
+              <span class="eyebrow">GitHub live data</span>
+              <strong id="sourceStatus">Ready to refresh</strong>
+            </div>
+          </div>
+          <label class="repo-control">
+            Repository
+            <input id="repoInput" value="cyrilawoyemi99-max/owockibot-bounty-sync-" spellcheck="false" />
+          </label>
+          <button id="refreshButton" class="button" type="button">Refresh now</button>
+          <button id="exportButton" class="button button-secondary" type="button">Export CSV</button>
+        </header>
+
+        <section class="stats-grid" aria-label="Reputation summary">
+          <article class="stat">
+            <span>Total contributors</span>
+            <strong id="statContributors">0</strong>
+          </article>
+          <article class="stat">
+            <span>Tracked bounties</span>
+            <strong id="statBounties">0</strong>
+          </article>
+          <article class="stat">
+            <span>Eligible reward</span>
+            <strong id="statReward">$0</strong>
+          </article>
+          <article class="stat">
+            <span>Proof links</span>
+            <strong id="statProofs">0</strong>
+          </article>
+        </section>
+
+        <section id="leaderboard" class="panel leaderboard-panel">
+          <div class="panel-header">
+            <div>
+              <span class="eyebrow">Contributor leaderboard</span>
+              <h1>OWK reputation from public bounty evidence</h1>
+            </div>
+            <span id="lastUpdated" class="muted">Not synced yet</span>
+          </div>
+
+          <div id="notice" class="notice" hidden></div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Contributor</th>
+                  <th>Reputation</th>
+                  <th>Completed</th>
+                  <th>Eligible reward</th>
+                  <th>Streak</th>
+                  <th>Top categories</th>
+                  <th>Proofs</th>
+                </tr>
+              </thead>
+              <tbody id="leaderboardRows"></tbody>
+            </table>
+          </div>
+          <div id="emptyState" class="empty-state" hidden>No contributors match the current filters.</div>
+        </section>
+      </main>
+
+      <aside id="proofs" class="detail-panel">
+        <button id="closeDetail" class="icon-button" type="button" aria-label="Clear selected contributor">x</button>
+        <section class="profile">
+          <img id="profileAvatar" alt="" />
+          <div>
+            <h2 id="profileName">Select a contributor</h2>
+            <p id="profileMeta" class="muted">Choose a row to inspect proof receipts.</p>
+          </div>
+          <strong id="profileScore" class="score">0</strong>
+        </section>
+
+        <section id="categories" class="panel compact-panel">
+          <div class="section-label">Category expertise</div>
+          <div id="categoryBars" class="bars"></div>
+        </section>
+
+        <section class="panel compact-panel">
+          <div class="section-label">All-time stats</div>
+          <dl class="fact-list">
+            <div><dt>Completed bounties</dt><dd id="factCompleted">0</dd></div>
+            <div><dt>Submitted proofs</dt><dd id="factProofs">0</dd></div>
+            <div><dt>Eligible reward</dt><dd id="factReward">$0</dd></div>
+            <div><dt>First proof</dt><dd id="factFirstProof">n/a</dd></div>
+          </dl>
+        </section>
+
+        <section class="panel compact-panel">
+          <div class="section-label">Proof ledger</div>
+          <div id="proofLedger" class="proof-ledger"></div>
+        </section>
+      </aside>
+    </div>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

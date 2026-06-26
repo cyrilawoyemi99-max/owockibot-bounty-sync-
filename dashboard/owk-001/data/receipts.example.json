@@ -1,0 +1,12 @@
+{
+  "description": "Optional onchain payout receipts for the OWK-001 reputation dashboard. Replace or extend this file with real settlement records when payouts are available.",
+  "receipts": [
+    {
+      "contributor": "gchahal1982",
+      "bountyId": "owk-002",
+      "amountUsdc": 250,
+      "chain": "Base",
+      "receiptUrl": "https://basescan.org/"
+    }
+  ]
+}
