@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Public Goods Writer badge">
+  <title>Public Goods Writer</title>
+  <desc>Awarded for sourced educational writing about public goods or the ecosystem.</desc>
+  <defs>
+    <linearGradient id="public-goods-writer-bg" x1="84" y1="58" x2="430" y2="458" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F97316"/>
+      <stop offset=".5" stop-color="#FACC15"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#17100A"/>
+  <path d="M112 92h288c27 0 48 21 48 48v232c0 27-21 48-48 48H112c-27 0-48-21-48-48V140c0-27 21-48 48-48Z" fill="url(#public-goods-writer-bg)"/>
+  <path d="M126 130h260c15 0 27 12 27 27v198c0 15-12 27-27 27H126c-15 0-27-12-27-27V157c0-15 12-27 27-27Z" fill="#fffdf2" opacity=".94"/>
+  <path d="M151 178h178v20H151zM151 224h214v18H151zM151 260h180v18H151zM151 296h132v18H151z" fill="#1F2937"/>
+  <path d="m329 320 54-54 30 30-54 54-38 8 8-38Z" fill="#0F766E"/>
+  <path d="m383 266 14-14c8-8 20-8 28 0s8 20 0 28l-14 14-28-28Z" fill="#EA580C"/>
+  <text x="256" y="445" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#F8FAFC">PUBLIC GOODS WRITER</text>
+</svg>

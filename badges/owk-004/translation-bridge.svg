@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Translation Bridge badge">
+  <title>Translation Bridge</title>
+  <desc>Awarded for a reviewed translation that opens the project to a new language community.</desc>
+  <defs>
+    <linearGradient id="translation-bridge-bg" x1="74" y1="50" x2="436" y2="456" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#07111E"/>
+  <path d="M74 178c0-42 34-76 76-76h212c42 0 76 34 76 76v156c0 42-34 76-76 76H150c-42 0-76-34-76-76V178Z" fill="url(#translation-bridge-bg)"/>
+  <path d="M122 161h132v178H122zM258 161h132v178H258z" fill="#F8FAFC" opacity=".95"/>
+  <path d="M149 207h78v22h-25v78h-26v-78h-27v-22ZM284 306l39-98h26l39 98h-28l-6-18h-37l-6 18h-27Zm41-40h22l-11-33-11 33Z" fill="#0F172A"/>
+  <path d="M232 257h48l-17-17 16-16 45 45-45 45-16-16 17-17h-48v-24Z" fill="#F59E0B"/>
+  <text x="256" y="445" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800" fill="#F8FAFC">TRANSLATION BRIDGE</text>
+</svg>

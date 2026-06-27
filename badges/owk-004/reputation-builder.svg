@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Reputation Builder badge">
+  <title>Reputation Builder</title>
+  <desc>Awarded when a contributor builds a durable record of completed work and verified receipts.</desc>
+  <defs>
+    <linearGradient id="reputation-builder-bg" x1="90" y1="54" x2="426" y2="458" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A3E635"/>
+      <stop offset=".5" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#07150F"/>
+  <path d="M256 62 424 159v194L256 450 88 353V159L256 62Z" fill="url(#reputation-builder-bg)"/>
+  <path d="M256 105 386 180v150l-130 75-130-75V180l130-75Z" fill="#092018" opacity=".74"/>
+  <path d="M161 314c23-55 58-83 95-83s72 28 95 83c-25 25-57 38-95 38s-70-13-95-38Z" fill="#F8FAFC"/>
+  <circle cx="256" cy="188" r="51" fill="#F8FAFC"/>
+  <path d="M210 310h92v22h-92zM320 286h36v22h-36zM156 286h36v22h-36z" fill="#0F766E"/>
+  <text x="256" y="430" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#F8FAFC">REPUTATION BUILDER</text>
+</svg>
