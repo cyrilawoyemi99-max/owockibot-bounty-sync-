@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OWK-001 Contributor Reputation Dashboard</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">OWK-001</p>
+        <h1>Contributor Reputation</h1>
+      </div>
+      <div class="topbar-actions">
+        <button id="reloadButton" type="button">Reload Data</button>
+        <button id="exportButton" type="button">Export CSV</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel filters" aria-label="Dashboard filters">
+        <label>
+          Search
+          <input id="searchInput" type="search" placeholder="Handle, wallet, bounty, proof">
+        </label>
+        <label>
+          Category
+          <select id="categorySelect">
+            <option value="all">All categories</option>
+          </select>
+        </label>
+        <label>
+          Status
+          <select id="statusSelect">
+            <option value="all">All statuses</option>
+            <option value="accepted">Accepted</option>
+            <option value="merged">Merged</option>
+            <option value="submitted">Submitted</option>
+            <option value="paid">Paid</option>
+          </select>
+        </label>
+        <label>
+          Sort
+          <select id="sortSelect">
+            <option value="score">Reputation score</option>
+            <option value="earned">Earned USDC</option>
+            <option value="completed">Completed bounties</option>
+            <option value="streak">Active-week streak</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="metric-grid" aria-label="Network totals">
+        <article>
+          <span>Total contributors</span>
+          <strong id="metricContributors">0</strong>
+        </article>
+        <article>
+          <span>Completed bounties</span>
+          <strong id="metricCompleted">0</strong>
+        </article>
+        <article>
+          <span>Tracked rewards</span>
+          <strong id="metricRewards">$0</strong>
+        </article>
+        <article>
+          <span>Receipt coverage</span>
+          <strong id="metricCoverage">0%</strong>
+        </article>
+      </section>
+
+      <section class="main-grid">
+        <article class="panel leaderboard">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Scoreboard</p>
+              <h2>Ranked Contributors</h2>
+            </div>
+            <span id="resultCount" class="pill">0 shown</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Contributor</th>
+                  <th>Score</th>
+                  <th>Completed</th>
+                  <th>Earned</th>
+                  <th>Streak</th>
+                  <th>Primary skill</th>
+                </tr>
+              </thead>
+              <tbody id="leaderboardBody"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <aside class="panel detail" aria-live="polite">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Selected</p>
+              <h2 id="detailName">No contributor selected</h2>
+            </div>
+            <span id="detailScore" class="score-chip">0</span>
+          </div>
+          <p id="detailWallet" class="wallet"></p>
+          <dl class="detail-stats">
+            <div>
+              <dt>Completed</dt>
+              <dd id="detailCompleted">0</dd>
+            </div>
+            <div>
+              <dt>Earned</dt>
+              <dd id="detailEarned">$0</dd>
+            </div>
+            <div>
+              <dt>Streak</dt>
+              <dd id="detailStreak">0w</dd>
+            </div>
+          </dl>
+          <h3>Category expertise</h3>
+          <div id="categoryBars" class="bars"></div>
+          <h3>Proof ledger</h3>
+          <ul id="proofList" class="proof-list"></ul>
+        </aside>
+      </section>
+
+      <section class="panel lower-grid">
+        <article>
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Signals</p>
+              <h2>Reputation Formula</h2>
+            </div>
+          </div>
+          <ul class="formula-list">
+            <li><strong>Completion:</strong> accepted, merged, and paid work count.</li>
+            <li><strong>Reward trust:</strong> USDC value, capped to avoid one payout dominating.</li>
+            <li><strong>Proof quality:</strong> public PR, issue comment, tx hash, and maintainer receipt signals.</li>
+            <li><strong>Consistency:</strong> active-week streak and recent contribution activity.</li>
+            <li><strong>Breadth:</strong> category coverage across engineering, design, content, translation, and security.</li>
+          </ul>
+        </article>
+        <article>
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Timeline</p>
+              <h2>Recent Verified Activity</h2>
+            </div>
+          </div>
+          <ol id="timeline" class="timeline"></ol>
+        </article>
+      </section>
+    </main>
+
+    <template id="emptyState">
+      <tr>
+        <td colspan="7" class="empty">No contributors match the current filters.</td>
+      </tr>
+    </template>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
