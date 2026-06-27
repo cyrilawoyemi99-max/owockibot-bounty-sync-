@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Docs Steward contributor badge" viewBox="0 0 256 256">
+<title>Docs Steward</title><desc>Badge for an accepted contributor documentation improvement.</desc>
+<rect width="256" height="256" rx="36" fill="#101827"/><path d="M75 50h75l31 31v125H75z" fill="none" stroke="#a78bfa" stroke-width="12" stroke-linejoin="round"/>
+<path d="M150 50v35h31M101 116h54M101 145h54M101 174h35" stroke="#f8fafc" stroke-width="10" stroke-linecap="round"/>
+<text x="128" y="229" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#f8fafc">DOCS STEWARD</text>
+</svg>
