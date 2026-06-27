@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Five Shipments contributor badge" viewBox="0 0 256 256">
+<title>Five Shipments</title><desc>Badge for five accepted bounty deliverables.</desc>
+<rect width="256" height="256" rx="36" fill="#101827"/><path d="M58 98l70-40 70 40v72l-70 40-70-40z" fill="none" stroke="#f6c453" stroke-width="11" stroke-linejoin="round"/>
+<path d="M58 98l70 40 70-40M128 138v72" fill="none" stroke="#f8fafc" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="128" y="124" text-anchor="middle" font-family="Arial,sans-serif" font-size="52" font-weight="800" fill="#f6c453">5</text><text x="128" y="229" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#f8fafc">SHIPMENTS</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Onchain Proof contributor badge" viewBox="0 0 256 256">
+<title>Onchain Proof</title><desc>Badge for a contribution linked to a verified payout or onchain receipt.</desc>
+<rect width="256" height="256" rx="36" fill="#101827"/><path d="M83 105h90M83 151h90" stroke="#9ee493" stroke-width="14" stroke-linecap="round"/>
+<path d="M95 72h66a33 33 0 010 66H95a33 33 0 010-66zM95 118h66a33 33 0 010 66H95a33 33 0 010-66z" fill="none" stroke="#f8fafc" stroke-width="10"/>
+<circle cx="128" cy="128" r="18" fill="#9ee493"/><text x="128" y="224" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#f8fafc">ONCHAIN PROOF</text>
+</svg>

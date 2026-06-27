@@ -1,0 +1,16 @@
+{
+  "bountyId": "owk-004",
+  "setId": "owk-004-qingfeng312",
+  "version": "1.0.0",
+  "format": "standalone-svg",
+  "badges": [
+    {"file": "01-first-claim.svg", "name": "First Claim", "milestone": "First accepted bounty claim or valid proof submission", "accent": "#35d0ff"},
+    {"file": "02-merged-fix.svg", "name": "Merged Fix", "milestone": "First merged code or documentation fix", "accent": "#54e38e"},
+    {"file": "03-five-shipments.svg", "name": "Five Shipments", "milestone": "Five accepted bounty deliverables", "accent": "#f6c453"},
+    {"file": "04-seven-day-streak.svg", "name": "Seven Day Streak", "milestone": "Contributions on seven consecutive days", "accent": "#ff7a59"},
+    {"file": "05-security-review.svg", "name": "Security Review", "milestone": "Accepted security or risk review", "accent": "#ff4f8b"},
+    {"file": "06-docs-steward.svg", "name": "Docs Steward", "milestone": "Accepted contributor documentation improvement", "accent": "#a78bfa"},
+    {"file": "07-design-partner.svg", "name": "Design Partner", "milestone": "Accepted design, UX, or visual asset contribution", "accent": "#2dd4bf"},
+    {"file": "08-onchain-proof.svg", "name": "Onchain Proof", "milestone": "Contribution linked to a verified payout or onchain receipt", "accent": "#9ee493"}
+  ]
+}
