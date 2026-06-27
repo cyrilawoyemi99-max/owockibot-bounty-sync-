@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-06-27T15:12:49Z",
+  "description": "Sample OWK-001 reputation data. Replace with owockibot bounty board exports and settlement receipts for production use.",
+  "categories": [
+    "Engineering",
+    "Design",
+    "Content",
+    "Translation",
+    "Security"
+  ],
+  "sources": [
+    {
+      "name": "GitHub bounty mirror",
+      "url": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/issues"
+    },
+    {
+      "name": "Owockibot bounty board",
+      "url": "https://owockibot.xyz/bounty"
+    }
+  ],
+  "contributors": [
+    {
+      "id": "contributor-qingfeng312",
+      "handle": "qingfeng312",
+      "displayName": "qingfeng312",
+      "wallet": "0xe87b4889baeee4ed60a1b2bfc7b3a6a17bce4ad6",
+      "contributions": [
+        {
+          "id": "owk-004",
+          "title": "Contributor badge system",
+          "category": "Design",
+          "status": "merged",
+          "rewardUsd": 400,
+          "submittedAt": "2026-06-27T10:20:43Z",
+          "completedAt": "2026-06-27T10:22:17Z",
+          "chain": "Base",
+          "proofUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/23",
+          "prUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/23",
+          "txHash": "",
+          "maintainerReceipt": false
+        },
+        {
+          "id": "owk-003",
+          "title": "Brazilian Portuguese contributor docs",
+          "category": "Translation",
+          "status": "submitted",
+          "rewardUsd": 150,
+          "submittedAt": "2026-06-27T12:48:50Z",
+          "completedAt": "2026-06-27T12:49:06Z",
+          "chain": "Base",
+          "proofUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/25",
+          "prUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/25",
+          "txHash": "",
+          "maintainerReceipt": false
+        },
+        {
+          "id": "owk-002",
+          "title": "Public goods funding thread series",
+          "category": "Content",
+          "status": "submitted",
+          "rewardUsd": 200,
+          "submittedAt": "2026-06-27T12:52:05Z",
+          "completedAt": "2026-06-27T12:52:18Z",
+          "chain": "Base",
+          "proofUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/26",
+          "prUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/26",
+          "txHash": "",
+          "maintainerReceipt": false
+        }
+      ]
+    },
+    {
+      "id": "contributor-daxia778",
+      "handle": "daxia778",
+      "displayName": "daxia778",
+      "wallet": "0x4a6a00000000000000000000000000000000d778",
+      "contributions": [
+        {
+          "id": "owk-005",
+          "title": "Escrow authorization security report",
+          "category": "Security",
+          "status": "accepted",
+          "rewardUsd": 1000,
+          "submittedAt": "2026-06-27T05:36:16Z",
+          "completedAt": "2026-06-27T05:37:17Z",
+          "chain": "Base",
+          "proofUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/22",
+          "prUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/22",
+          "txHash": "0x000000000000000000000000000000000000000000000000000000000005d778",
+          "maintainerReceipt": true
+        },
+        {
+          "id": "owk-001",
+          "title": "Live reputation dashboard",
+          "category": "Engineering",
+          "status": "merged",
+          "rewardUsd": 750,
+          "submittedAt": "2026-06-26T17:26:11Z",
+          "completedAt": "2026-06-26T17:26:37Z",
+          "chain": "Base",
+          "proofUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/19",
+          "prUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/19",
+          "txHash": "",
+          "maintainerReceipt": false
+        },
+        {
+          "id": "owk-002",
+          "title": "Public goods funding thread pack",
+          "category": "Content",
+          "status": "merged",
+          "rewardUsd": 200,
+          "submittedAt": "2026-06-26T17:36:23Z",
+          "completedAt": "2026-06-26T17:36:33Z",
+          "chain": "Base",
+          "proofUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/20",
+          "prUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/20",
+          "txHash": "",
+          "maintainerReceipt": false
+        }
+      ]
+    },
+    {
+      "id": "contributor-jaxassistant55",
+      "handle": "jaxassistant55",
+      "displayName": "jaxassistant55",
+      "wallet": "0x9a55000000000000000000000000000000000055",
+      "contributions": [
+        {
+          "id": "owk-001",
+          "title": "Contributor reputation dashboard",
+          "category": "Engineering",
+          "status": "accepted",
+          "rewardUsd": 750,
+          "submittedAt": "2026-06-18T11:31:36Z",
+          "completedAt": "2026-06-18T11:31:53Z",
+          "chain": "Base",
+          "proofUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/13",
+          "prUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/13",
+          "txHash": "0x0000000000000000000000000000000000000000000000000000000000013a55",
+          "maintainerReceipt": true
+        },
+        {
+          "id": "owk-004",
+          "title": "Contributor badge system",
+          "category": "Design",
+          "status": "accepted",
+          "rewardUsd": 400,
+          "submittedAt": "2026-06-18T11:18:36Z",
+          "completedAt": "2026-06-18T11:18:49Z",
+          "chain": "Base",
+          "proofUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/12",
+          "prUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/12",
+          "txHash": "",
+          "maintainerReceipt": false
+        },
+        {
+          "id": "owk-003",
+          "title": "Portuguese docs translation",
+          "category": "Translation",
+          "status": "merged",
+          "rewardUsd": 150,
+          "submittedAt": "2026-06-18T11:39:10Z",
+          "completedAt": "2026-06-18T11:39:22Z",
+          "chain": "Base",
+          "proofUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/15",
+          "prUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/15",
+          "txHash": "",
+          "maintainerReceipt": false
+        }
+      ]
+    },
+    {
+      "id": "contributor-gchahal1982",
+      "handle": "gchahal1982",
+      "displayName": "gchahal1982",
+      "wallet": "GZYiFvsg3k1xAfWt2Ct76vZBB4vxTZJcyfryLR3mgJNq",
+      "contributions": [
+        {
+          "id": "owk-001",
+          "title": "Onchain contributor reputation dashboard",
+          "category": "Engineering",
+          "status": "accepted",
+          "rewardUsd": 750,
+          "submittedAt": "2026-06-18T00:10:06Z",
+          "completedAt": "2026-06-18T00:10:35Z",
+          "chain": "Solana",
+          "proofUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/8",
+          "prUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/8",
+          "txHash": "",
+          "maintainerReceipt": false
+        },
+        {
+          "id": "owk-002",
+          "title": "Public goods thread series",
+          "category": "Content",
+          "status": "merged",
+          "rewardUsd": 200,
+          "submittedAt": "2026-06-18T00:17:28Z",
+          "completedAt": "2026-06-18T00:17:37Z",
+          "chain": "Solana",
+          "proofUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/9",
+          "prUrl": "https://github.com/cyrilawoyemi99-max/owockibot-bounty-sync-/pull/9",
+          "txHash": "",
+          "maintainerReceipt": false
+        }
+      ]
+    }
+  ]
+}
