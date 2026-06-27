@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Shipped Fix badge">
+  <title>Shipped Fix</title>
+  <desc>Awarded when a contributor ships a merged engineering fix.</desc>
+  <defs>
+    <linearGradient id="shipped-fix-bg" x1="78" y1="58" x2="432" y2="456" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5B8CFF"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#0B1020"/>
+  <path d="M116 100h280l48 88v168l-92 72H160l-92-72V188l48-88Z" fill="url(#shipped-fix-bg)"/>
+  <path d="M138 132h236l34 62v144l-69 54H173l-69-54V194l34-62Z" fill="#0E172B" opacity=".8"/>
+  <path d="m188 278 44 44 96-122 34 27-126 159-83-83 35-25Z" fill="#F8FAFC"/>
+  <path d="M166 169h180v30H166zM166 217h119v24H166zM298 217h48v24h-48z" fill="#9EEAD8"/>
+  <text x="256" y="430" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800" fill="#F8FAFC">SHIPPED FIX</text>
+</svg>

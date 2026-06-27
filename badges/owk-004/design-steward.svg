@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Design Steward badge">
+  <title>Design Steward</title>
+  <desc>Awarded for polished visual design assets that are ready for production use.</desc>
+  <defs>
+    <linearGradient id="design-steward-bg" x1="66" y1="70" x2="448" y2="444" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F472B6"/>
+      <stop offset=".48" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#100B1C"/>
+  <circle cx="256" cy="256" r="192" fill="url(#design-steward-bg)"/>
+  <circle cx="256" cy="256" r="145" fill="#111827" opacity=".76"/>
+  <path d="M162 214c0-39 31-70 70-70h60c39 0 70 31 70 70 0 24-19 43-43 43h-28c-13 0-24 11-24 24s-11 24-24 24h-11c-39 0-70-31-70-70v-21Z" fill="#F8FAFC"/>
+  <circle cx="218" cy="201" r="17" fill="#EF4444"/>
+  <circle cx="267" cy="187" r="17" fill="#F59E0B"/>
+  <circle cx="318" cy="215" r="17" fill="#10B981"/>
+  <circle cx="214" cy="253" r="17" fill="#3B82F6"/>
+  <path d="M318 290h45l-61 94h-45l61-94Z" fill="#F8FAFC"/>
+  <text x="256" y="438" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800" fill="#F8FAFC">DESIGN STEWARD</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="First Claim badge">
+  <title>First Claim</title>
+  <desc>Awarded when a contributor makes their first accepted bounty claim.</desc>
+  <defs>
+    <linearGradient id="first-claim-bg" x1="76" y1="44" x2="436" y2="468" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#19D39A"/>
+      <stop offset="1" stop-color="#096D86"/>
+    </linearGradient>
+    <linearGradient id="first-claim-metal" x1="150" y1="104" x2="374" y2="406" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF7B8"/>
+      <stop offset="1" stop-color="#F2A93B"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#08151E"/>
+  <path d="M256 42 425 118v128c0 92-60 176-169 224C147 422 87 338 87 246V118L256 42Z" fill="url(#first-claim-bg)"/>
+  <path d="M256 78 391 139v105c0 71-45 139-135 181-90-42-135-110-135-181V139L256 78Z" fill="#0D2230" opacity=".72"/>
+  <circle cx="256" cy="210" r="82" fill="url(#first-claim-metal)"/>
+  <path d="m256 138 18 52 55 1-44 32 16 53-45-31-45 31 16-53-44-32 55-1 18-52Z" fill="#102535"/>
+  <path d="M172 326h168v30H172zM195 372h122v24H195z" fill="#F9FAF8"/>
+  <text x="256" y="349" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#102535">FIRST</text>
+  <text x="256" y="392" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#F9FAF8">CLAIM</text>
+</svg>

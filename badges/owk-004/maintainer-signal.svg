@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Maintainer Signal badge">
+  <title>Maintainer Signal</title>
+  <desc>Awarded when a contributor helps maintainers review, triage, or close bounty work.</desc>
+  <defs>
+    <linearGradient id="maintainer-signal-bg" x1="74" y1="55" x2="432" y2="462" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FDE047"/>
+      <stop offset=".5" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#DC2626"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#1C0B08"/>
+  <circle cx="256" cy="256" r="193" fill="url(#maintainer-signal-bg)"/>
+  <circle cx="256" cy="256" r="150" fill="#23120F" opacity=".78"/>
+  <path d="M164 281h48c10-35 35-60 44-116 9 56 34 81 44 116h48c-33 55-78 81-92 102-14-21-59-47-92-102Z" fill="#F8FAFC"/>
+  <path d="M256 126c27 44 57 76 82 98-31-8-55-20-82-40-27 20-51 32-82 40 25-22 55-54 82-98Z" fill="#FDE68A"/>
+  <path d="M206 262h100v27H206z" fill="#7C2D12"/>
+  <text x="256" y="435" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#F8FAFC">MAINTAINER SIGNAL</text>
+</svg>

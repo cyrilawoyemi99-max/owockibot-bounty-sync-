@@ -1,0 +1,63 @@
+{
+  "bounty_id": "owk-004",
+  "title": "Contributor Badge System",
+  "badge_count": 8,
+  "badges": [
+    {
+      "id": "first-claim",
+      "file": "first-claim.svg",
+      "name": "First Claim",
+      "category": "onboarding",
+      "criteria": "First accepted bounty claim or valid proof submission."
+    },
+    {
+      "id": "shipped-fix",
+      "file": "shipped-fix.svg",
+      "name": "Shipped Fix",
+      "category": "engineering",
+      "criteria": "Merged engineering fix with reproducible validation notes."
+    },
+    {
+      "id": "security-scout",
+      "file": "security-scout.svg",
+      "name": "Security Scout",
+      "category": "security",
+      "criteria": "Validated security finding, responsible disclosure, or accepted audit report."
+    },
+    {
+      "id": "public-goods-writer",
+      "file": "public-goods-writer.svg",
+      "name": "Public Goods Writer",
+      "category": "content",
+      "criteria": "Sourced educational content, thread, recap, or research note."
+    },
+    {
+      "id": "design-steward",
+      "file": "design-steward.svg",
+      "name": "Design Steward",
+      "category": "design",
+      "criteria": "Production-ready design assets, style systems, or accessibility-ready visuals."
+    },
+    {
+      "id": "translation-bridge",
+      "file": "translation-bridge.svg",
+      "name": "Translation Bridge",
+      "category": "translation",
+      "criteria": "Reviewed translation that preserves technical meaning and formatting."
+    },
+    {
+      "id": "reputation-builder",
+      "file": "reputation-builder.svg",
+      "name": "Reputation Builder",
+      "category": "reputation",
+      "criteria": "Durable proof trail across completed bounties, receipts, or contributor records."
+    },
+    {
+      "id": "maintainer-signal",
+      "file": "maintainer-signal.svg",
+      "name": "Maintainer Signal",
+      "category": "maintenance",
+      "criteria": "Meaningful triage, review, curation, or maintainer support work."
+    }
+  ]
+}

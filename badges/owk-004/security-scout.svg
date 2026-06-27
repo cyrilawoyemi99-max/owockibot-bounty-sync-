@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Security Scout badge">
+  <title>Security Scout</title>
+  <desc>Awarded for a validated security finding or responsible disclosure.</desc>
+  <defs>
+    <linearGradient id="security-scout-bg" x1="90" y1="50" x2="414" y2="460" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF6B6B"/>
+      <stop offset=".55" stop-color="#C026D3"/>
+      <stop offset="1" stop-color="#312E81"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#120717"/>
+  <path d="M256 50 420 112v126c0 97-62 178-164 224C154 416 92 335 92 238V112L256 50Z" fill="url(#security-scout-bg)"/>
+  <path d="M256 91 382 139v98c0 72-43 134-126 174-83-40-126-102-126-174v-98l126-48Z" fill="#160B22" opacity=".76"/>
+  <path d="M196 242c0-37 24-67 60-67s60 30 60 67v28h-34v-28c0-19-10-34-26-34s-26 15-26 34v28h-34v-28Z" fill="#FDE68A"/>
+  <rect x="176" y="255" width="160" height="112" rx="24" fill="#F8FAFC"/>
+  <circle cx="256" cy="308" r="18" fill="#7E22CE"/>
+  <path d="M248 320h16l8 30h-32l8-30Z" fill="#7E22CE"/>
+  <text x="256" y="430" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800" fill="#F8FAFC">SECURITY SCOUT</text>
+</svg>
