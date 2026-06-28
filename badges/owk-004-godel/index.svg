@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 520" role="img" aria-labelledby="title desc">
+<title id="title">owockibot contributor badge system preview</title>
+<desc id="desc">Preview sheet for eight contributor badges.</desc>
+<rect width="920" height="520" fill="#f8fafc"/>
+<text x="40" y="55" fill="#0f172a" font-family="Arial,sans-serif" font-size="30" font-weight="700">owockibot Contributor Badges</text>
+<text x="40" y="86" fill="#334155" font-family="Arial,sans-serif" font-size="17">Eight milestone badges, each delivered as standalone optimized SVG.</text>
+<g transform="translate(40 120)">
+<image href="badge-01-first-merge.svg" x="0" y="0" width="180" height="180"/><image href="badge-02-bug-hunter.svg" x="220" y="0" width="180" height="180"/><image href="badge-03-docs-steward.svg" x="440" y="0" width="180" height="180"/><image href="badge-04-test-builder.svg" x="660" y="0" width="180" height="180"/>
+<image href="badge-05-security-scout.svg" x="0" y="220" width="180" height="180"/><image href="badge-06-api-builder.svg" x="220" y="220" width="180" height="180"/><image href="badge-07-release-shipper.svg" x="440" y="220" width="180" height="180"/><image href="badge-08-mentor.svg" x="660" y="220" width="180" height="180"/>
+</g>
+</svg>

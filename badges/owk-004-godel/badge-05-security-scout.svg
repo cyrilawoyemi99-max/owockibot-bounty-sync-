@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+<title id="title">Security Scout contributor badge</title>
+<desc id="desc">Navy and cyan medal badge for responsible security findings.</desc>
+<defs><linearGradient id="g" x1="32" y1="28" x2="224" y2="228"><stop stop-color="#1e3a8a"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs>
+<circle cx="128" cy="128" r="110" fill="url(#g)" stroke="#0f172a" stroke-width="8"/>
+<path fill="#e0f2fe" stroke="#0f172a" stroke-width="8" d="M128 50l64 24v54c0 45-28 73-64 88-36-15-64-43-64-88V74z"/>
+<path fill="none" stroke="#0f172a" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" d="M91 134c19-38 55-38 74 0-19 38-55 38-74 0z"/>
+<circle cx="128" cy="134" r="18" fill="none" stroke="#0f172a" stroke-width="9"/>
+<path fill="none" stroke="#0f172a" stroke-linecap="round" stroke-width="7" d="M128 88v-17M178 101l13-12M78 101L65 89"/>
+<text x="128" y="236" fill="#0f172a" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">SECURITY SCOUT</text>
+</svg>

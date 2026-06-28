@@ -1,0 +1,61 @@
+{
+  "bountyId": "owk-004",
+  "title": "Contributor Badge System",
+  "contributor": "Godel-Smith",
+  "format": "standalone SVG",
+  "viewBox": "0 0 256 256",
+  "files": [
+    {
+      "file": "badge-01-first-merge.svg",
+      "name": "First Merge",
+      "awardedFor": "First accepted contribution"
+    },
+    {
+      "file": "badge-02-bug-hunter.svg",
+      "name": "Bug Hunter",
+      "awardedFor": "Confirmed bug report or fix"
+    },
+    {
+      "file": "badge-03-docs-steward.svg",
+      "name": "Docs Steward",
+      "awardedFor": "Documentation improvement"
+    },
+    {
+      "file": "badge-04-test-builder.svg",
+      "name": "Test Builder",
+      "awardedFor": "Meaningful test coverage"
+    },
+    {
+      "file": "badge-05-security-scout.svg",
+      "name": "Security Scout",
+      "awardedFor": "Responsible security finding"
+    },
+    {
+      "file": "badge-06-api-builder.svg",
+      "name": "API Builder",
+      "awardedFor": "Integration or API improvement"
+    },
+    {
+      "file": "badge-07-release-shipper.svg",
+      "name": "Release Shipper",
+      "awardedFor": "Release support or deployment fix"
+    },
+    {
+      "file": "badge-08-mentor.svg",
+      "name": "Mentor",
+      "awardedFor": "Helpful review or contributor support"
+    }
+  ],
+  "supportingFiles": [
+    "index.svg",
+    "README.md",
+    "style-guide.md",
+    "submission-note.md"
+  ],
+  "constraints": [
+    "No scripts",
+    "No embedded raster assets",
+    "No external href references",
+    "No build step required"
+  ]
+}
