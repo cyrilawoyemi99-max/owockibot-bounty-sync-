@@ -1,0 +1,48 @@
+{
+  "bounty": "owk-004",
+  "author": "zdfgu113",
+  "format": "SVG",
+  "viewBox": "0 0 256 256",
+  "badges": [
+    {
+      "file": "01-claim-spark.svg",
+      "name": "Claim Spark",
+      "milestone": "First accepted bounty claim"
+    },
+    {
+      "file": "02-review-signal.svg",
+      "name": "Review Signal",
+      "milestone": "Helpful code review submitted"
+    },
+    {
+      "file": "03-merge-shipper.svg",
+      "name": "Merge Shipper",
+      "milestone": "Merged contribution shipped"
+    },
+    {
+      "file": "04-seven-day-streak.svg",
+      "name": "Seven Day Streak",
+      "milestone": "Seven day contribution streak"
+    },
+    {
+      "file": "05-bug-fixer.svg",
+      "name": "Bug Fixer",
+      "milestone": "Production bug fixed"
+    },
+    {
+      "file": "06-docs-translator.svg",
+      "name": "Docs Translator",
+      "milestone": "Documentation or translation improved"
+    },
+    {
+      "file": "07-security-review.svg",
+      "name": "Security Review",
+      "milestone": "Security issue reported responsibly"
+    },
+    {
+      "file": "08-onchain-proof.svg",
+      "name": "Onchain Proof",
+      "milestone": "Onchain payout or proof verified"
+    }
+  ]
+}
