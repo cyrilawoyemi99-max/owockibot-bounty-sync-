@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+<title id="title">API Builder contributor badge</title>
+<desc id="desc">Indigo and lime medal badge for integration and API improvements.</desc>
+<defs><linearGradient id="g" x1="32" y1="28" x2="224" y2="228"><stop stop-color="#4f46e5"/><stop offset="1" stop-color="#84cc16"/></linearGradient></defs>
+<circle cx="128" cy="128" r="110" fill="url(#g)" stroke="#0f172a" stroke-width="8"/>
+<path fill="#f7fee7" stroke="#0f172a" stroke-width="8" d="M128 50l64 24v54c0 45-28 73-64 88-36-15-64-43-64-88V74z"/>
+<path fill="none" stroke="#0f172a" stroke-linecap="round" stroke-linejoin="round" stroke-width="10" d="M98 109l-24 25 24 25M158 109l24 25-24 25M141 96l-26 76"/>
+<circle cx="128" cy="191" r="12" fill="#0f172a"/>
+<text x="128" y="236" fill="#0f172a" font-family="Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle">API BUILDER</text>
+</svg>

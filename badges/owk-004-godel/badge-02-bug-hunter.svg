@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+<title id="title">Bug Hunter contributor badge</title>
+<desc id="desc">Coral and amber medal badge for confirmed bug fixes.</desc>
+<defs><linearGradient id="g" x1="32" y1="28" x2="224" y2="228"><stop stop-color="#fb7185"/><stop offset="1" stop-color="#f59e0b"/></linearGradient></defs>
+<circle cx="128" cy="128" r="110" fill="url(#g)" stroke="#0f172a" stroke-width="8"/>
+<path fill="#fff7ed" stroke="#0f172a" stroke-width="8" d="M128 50l64 24v54c0 45-28 73-64 88-36-15-64-43-64-88V74z"/>
+<circle cx="128" cy="130" r="30" fill="none" stroke="#0f172a" stroke-width="10"/>
+<path fill="none" stroke="#0f172a" stroke-linecap="round" stroke-width="8" d="M128 95v-18M98 117l-18-10M158 117l18-10M98 144l-18 10M158 144l18 10M107 158l-15 18M149 158l15 18M98 130h60"/>
+<text x="128" y="236" fill="#0f172a" font-family="Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle">BUG HUNTER</text>
+</svg>
