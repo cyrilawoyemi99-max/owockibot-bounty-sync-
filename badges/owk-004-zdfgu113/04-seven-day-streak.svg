@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="04-seven-day-streak-title 04-seven-day-streak-desc" viewBox="0 0 256 256">
+<title id="04-seven-day-streak-title">Seven Day Streak</title>
+<desc id="04-seven-day-streak-desc">Seven day contribution streak</desc>
+<path fill="#18181B" d="M128 12l94 36v78c0 58-36 101-94 118-58-17-94-60-94-118V48z"/>
+<path fill="#EF4444" d="M128 28l76 30v66c0 48-28 82-76 99-48-17-76-51-76-99V58z"/>
+<path fill="#FDE047" opacity=".22" d="M58 62l140 128c-15 15-38 27-70 37-48-17-76-51-76-99V58z"/>
+<circle cx="128" cy="137" r="76" fill="#000" opacity=".16"/>
+<path d="M128 72c30 32 44 56 44 82 0 29-20 50-44 50s-44-21-44-50c0-24 14-50 44-82z" fill="#FEF3C7"/><text x="128" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#7F1D1D">7</text>
+<text x="128" y="236" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">Seven Day Streak</text>
+</svg>
